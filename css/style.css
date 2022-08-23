@@ -1,0 +1,66 @@
+/* color h2 #212121 */
+/* color text #757575 */
+/* blue color #2196F3 */
+/* white color #FFFFFF */
+/* color studio #000000 #FFFFFF*/
+
+
+/* bg color #F5F5F5 */
+/* bg color hero #2F303A */
+
+body {
+	color: #212121;
+	background-color: #F5F5F5;
+}
+a {
+	text-decoration:none;
+}
+
+:root {
+	--main-color-title:#212121;
+	--main-color-text:#757575;
+	--color-blue:#2196F3;
+	--color-white:#FFFFFF;
+	--bg-color-dark:#2F303A;
+}
+
+/* header */
+ul {
+	list-style: none;
+}
+.logo {
+	color: var(--color-blue);
+}
+.studio-general {
+	color: #000000;
+}
+.main-nav {
+}
+.nav-link {
+	color: var(--main-color-title);
+}
+.nav-link {}
+.nav-link:hover,
+.nav-link:focus {
+	color: var(--color-blue);
+}
+
+.contact-info {
+	color: var(--main-color-text);
+}
+
+.contact-mail {
+	color: var(--main-color-text);
+}
+.contact-mail:hover,
+.contact-mail:focus {
+	color: var(--color-blue);
+}
+
+.contact-phone {
+	color: var(--main-color-text);
+}
+.contact-phone:hover,
+.contact-phone:focus {
+	color: var(--color-blue);
+}
