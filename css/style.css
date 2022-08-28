@@ -65,3 +65,12 @@ ul {
 .contact-phone:focus {
 	color: var(--color-blue);
 }
+
+/* main */
+
+/* footer */
+
+
+.contact-footer {
+	color: rgba(255, 255, 255, 0.6);
+}
