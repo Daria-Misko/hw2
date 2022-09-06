@@ -11,6 +11,9 @@
 body {
 	color: var(--main-color-title);
 	background-color: #F5F5F5;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 1.17;
 }
 a {
 	text-decoration:none;
@@ -31,11 +34,18 @@ ul {
 }
 .logo {
 	color: var(--color-blue);
+	font-family: 'Raleway', sans-serif;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
 }
 .studio-general {
 	color: #000000;
 }
 .main-nav {
+	font-weight: 500;
+	letter-spacing: 0.02em;
 }
 .nav-link {
 	color: var(--main-color-title);
@@ -68,14 +78,28 @@ ul {
 
 /* main */
 .hero {
-
+	background-color: #2F303A;
 }
 
 .hero-title {
 	color: var(--color-white);
+	font-size: 44px;
+	font-weight: 900;
+	line-height: 1.36;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	text-align: center;
 }
 
-.hero-button {}
+.hero-button {
+	color: var(--color-white);
+	background-color: var(--color-blue);
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.87;
+	letter-spacing: 0.06em;
+	text-align: center;
+}
 
 .title {
 
